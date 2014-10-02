@@ -1,0 +1,196 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+#conti1{
+	width:1200px;
+	margin:5px auto;
+  padding:2px 2px;
+  background: #E1BFF2;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+
+}
+
+.container{
+  width:1200px;
+  height: 74px;
+  margin:0px auto;
+  padding:0px 5px;
+}
+
+.row{
+  display: table-cell;
+  margin: 1px auto;
+  vertical-align: middle;
+  font-size: 14px;
+  height: 30px;
+  line-height: 15px;
+  padding: 12px; 
+  padding-left: 0px;
+  color: #808080;
+
+}
+
+.emblema{
+  float: left;
+  margin: 22px auto;
+  margin-bottom: 15px
+}
+
+
+
+.acuser{
+  float: right;
+  margin: 22px auto;
+  margin-left: auto;
+  margin-bottom: 15px
+
+}
+.navig{
+  height: 74px;
+  margin-left: 400px;
+
+  width: 170px;
+  
+  margin-bottom: 15px
+
+}
+
+#cont_p{
+  width:1200px;
+  margin:16px auto;
+  font-size:10px;
+  color: #530EC8;
+  border-bottom: 3px solid #F4B39B;
+  height: 35px;
+  margin-top: 25px;  
+}
+
+b {
+  font-size:13px;
+  color: #9c9a9b;
+}
+
+a:link { 
+  color: #333333;
+  text-decoration: none;
+}
+a:visited { 
+  color: #9c9a9b;
+  
+}
+a:hover { 
+  color: #CCCCCC;
+  text-decoration: underline;
+}
+a:active { 
+  color: #333333;
+}
+
+
+#cont1{
+  width:1200px;
+  height:448px;
+  margin:5px auto;
+  font-size:10px;
+  color: #530EC8;
+  background: white;
+  border: 1px solid #F4B39B;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+
+
+#cont2{
+  width:663px;
+  height:784px;
+  float: left;
+  border: solid 3px  #F4B39B;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+
+#cont3{
+  width:518px;
+  height:784px;
+  color: red;
+  background: #8EC0F6;
+  border: solid 3px  #F4B39B;
+  float: right;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+#cont4{
+  width:663px;
+  height:172px;
+  margin:8px auto;
+  float: left;
+  border: solid 3px  #F4B39B;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+#cont23{
+  width:1203px;
+  margin:15px auto;
+  
+}
+
+.b3radius{
+	border-radius: 10px;
+}
+
+.filter{
+  width: 668px;
+  height: 69px;
+  margin: 5px auto;
+  float: left;
+}
+
+.navbar{
+	height: 74px;
+  margin-top: 5px;
+	position: relative;
+	background-color: #f8f8f8;
+  border-color: #e7e7e7;
+
+}
+
+body {
+  background-color: #E1E2DF;
+}
+
+.left {
+	float: left;
+}
+.center{
+	float: center;
+}
+.right{
+	float: left;
+}
