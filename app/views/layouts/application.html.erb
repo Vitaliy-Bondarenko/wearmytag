@@ -3,10 +3,66 @@
 <head>
   <title>Wearmytag</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application','cssrefresh', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="navbar">
+    <div class="container">
+      <div class="emblema">
+        <%= image_tag("logo.jpg", :alt => "rss feed") %>
+      </div>
+      <div class="navig">
+        <div class="nav1">
+          <%= link_to 'DESIGN', new_post_path, {:class => "nav_bar"} %>
+        </div>
+        <div class="nav1">
+          <%= link_to 'MANUFACTURE', new_post_path, {:class => "nav_bar"} %>
+        </div>
+        <div class="nav1">
+          <%= link_to 'SELL', new_post_path, {:class => "nav_bar"} %>
+        </div>
+        
+      </div>
+      <div class="acuser">
+        
+
+        <%= image_tag("foto.jpg", :alt => "rss feed",:id => "avatar") %>
+        <div id="av">
+        <ul id="menu">
+          <li><a href="#">Artstudios <%= image_tag("dawn.jpg", :alt => "rss feed") %></a>
+          <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+          </ul>
+          </li>
+        </ul>
+        </div>
+        <div class="emb_nav">
+          <a href="#" class="mylink"> 
+            <%= image_tag("planet.jpg", :alt => "rss feed", :id => "poz_nav") %>
+          </a>
+          <div id="maseg"><center>12</center></div>
+        </div>
+        <div class="emb_nav">
+          <a href="#" class="mylink"> 
+            <%= image_tag("konv.jpg", :alt => "rss feed", :id => "poz_nav") %>
+          </a>
+          <div id="maseg"><center>5</center></div>
+        </div>
+        <div class="emb_nav">
+          <a href="#" class="mylink"> 
+            <%= image_tag("diplomat.jpg", :alt => "rss feed", :id => "poz_nav") %>
+          </a>
+          <div id="maseg"><center>11</center></div>
+        </div>
+    </div>
+  </div>
+  
+
+
+
 
 <%= yield %>
 

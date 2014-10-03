@@ -15,8 +15,8 @@
  */
 
 #conti1{
-	width:1200px;
-	margin:5px auto;
+  width:1200px;
+  margin:5px auto;
   padding:2px 2px;
   background: #E1BFF2;
   box-shadow: 0px 1px 3px black;
@@ -24,6 +24,103 @@
   -o-box-shadow: 0px 1px 3px black;
   -moz-box-shadow: 0px 1px 3px black;
 
+}
+
+#avatar{
+  width: 40px;
+  height: 40px;
+  float: left;  
+  background: #E1BFF2;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+
+}
+
+#poz_nav{
+  margin: 8px 5px 0 5px;
+}
+.emb_nav{
+  float: left;  
+  width: 45px;
+  margin-left: 0px;
+}
+.mylink {
+  height: 25px;
+  width: 25px;
+}
+
+#av{
+  float: left;
+  height:74px;
+  width: 100px;
+  margin: 15px 0 0px 15px;
+}
+/*Обнуляем отступы*/
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;   
+}
+ 
+/*Задаём параметры блока, содержащего основное меню*/
+#menu {
+    display:block;
+    position:absolute;
+    margin: 0px 0px;
+    /*top:100px;
+    left:50px;*/
+         
+}
+ 
+/*Задаём стили для разделов нашего меню*/
+#menu > li {
+    display:inline-block;
+    height:20px;
+    font-size: 16px;
+    position:relative;
+}
+ 
+/*Стили для скрытого выпадающего меню*/
+#menu > li > ul {
+    position:absolute;
+    top:20px;
+    font-size: 17px;
+    display:none;   
+}
+ 
+/*Делаем скрытую часть видимой*/
+#menu > li:hover > ul {
+    display:block;  
+}
+
+#maseg{
+  top: -55px; /* Сдвигаем текст вверх */
+  left: 20px;
+  float: left; 
+  width: 20px;
+  height: 18px;
+  padding-top: 2px; 
+  font-size:12px;
+  color: white;
+  background: #f27e4b;
+  border-radius: 5px;
+  position: relative;
+  
+
+}
+
+.body {
+
+  .button {
+    color: red;
+  }
+}
+
+.navbar {
+  .button {
+    color: blue;
+  }
 }
 
 .container{
@@ -34,8 +131,8 @@
 }
 
 .row{
-  display: table-cell;
   margin: 1px auto;
+  display: table-cell;
   vertical-align: middle;
   font-size: 14px;
   height: 30px;
@@ -52,23 +149,52 @@
   margin-bottom: 15px
 }
 
+.nav1{
+  padding: 26px 0;
+  height: 22px;
+  float: left;
+  border-right: 1px solid #D5CBC8;
+}
 
+
+.navig{
+  float: left;
+  height: 74px;
+  margin-left: 119px;
+  width: 385px;
+    
+}
+
+.nav_bar{
+  width: 80px;  
+  font-size: 17px;
+  margin: 0 23px;
+  }
 
 .acuser{
-  float: right;
-  margin: 22px auto;
-  margin-left: auto;
-  margin-bottom: 15px
+  a:hover {
+    color: #333333;
+    text-decoration: underline;
+    background-color: white;
+  }
+
+  a:link { 
+    color: #333333;
+    text-decoration: none;
+  }
+
 
 }
-.navig{
-  height: 74px;
-  margin-left: 400px;
 
-  width: 170px;
+.acuser{
+  display: table-cell;
+  vertical-align: middle;
+  height: 44px;
+  width: 300px;
+  float: right;
+  padding: 16px 0px; 
+  margin: 0px auto;
   
-  margin-bottom: 15px
-
 }
 
 #cont_p{
@@ -86,22 +212,25 @@ b {
   color: #9c9a9b;
 }
 
-a:link { 
-  color: #333333;
-  text-decoration: none;
-}
-a:visited { 
-  color: #9c9a9b;
-  
-}
-a:hover { 
-  color: #CCCCCC;
-  text-decoration: underline;
-}
-a:active { 
-  color: #333333;
-}
+.navig{
+  a:link { 
+    color: #333333;
+    text-decoration: none;
+  }
+  a:visited { 
+    color: #9c9a9b;
+    
+  }
+  a:hover {
 
+    color: white;
+    text-decoration: underline;
+    background-color: rgba(84, 123, 221, 0.57);
+  }
+  a:active { 
+    color: #333333;
+  }
+}
 
 #cont1{
   width:1200px;
@@ -110,11 +239,15 @@ a:active {
   font-size:10px;
   color: #530EC8;
   background: white;
-  border: 1px solid #F4B39B;
   box-shadow: 0px 1px 3px black;
   -webkit-box-shadow: 0px 1px 3px black;
   -o-box-shadow: 0px 1px 3px black;
   -moz-box-shadow: 0px 1px 3px black;
+}
+
+
+#ramka{
+  border: solid 1px  #F4B39B;
 }
 
 
@@ -123,7 +256,6 @@ a:active {
   width:663px;
   height:784px;
   float: left;
-  border: solid 3px  #F4B39B;
   box-shadow: 0px 1px 3px black;
   -webkit-box-shadow: 0px 1px 3px black;
   -o-box-shadow: 0px 1px 3px black;
@@ -136,7 +268,6 @@ a:active {
   height:784px;
   color: red;
   background: #8EC0F6;
-  border: solid 3px  #F4B39B;
   float: right;
   box-shadow: 0px 1px 3px black;
   -webkit-box-shadow: 0px 1px 3px black;
@@ -145,10 +276,9 @@ a:active {
 }
 #cont4{
   width:663px;
-  height:172px;
-  margin:8px auto;
+  height:176px;
+  margin:10px auto;
   float: left;
-  border: solid 3px  #F4B39B;
   box-shadow: 0px 1px 3px black;
   -webkit-box-shadow: 0px 1px 3px black;
   -o-box-shadow: 0px 1px 3px black;
@@ -176,7 +306,7 @@ a:active {
 	height: 74px;
   margin-top: 5px;
 	position: relative;
-	background-color: #f8f8f8;
+	background-color: #ffffff;
   border-color: #e7e7e7;
 
 }
