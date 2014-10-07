@@ -7,26 +7,42 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="navbar">
-    <div class="container">
-      <div class="emblema">
+<div class="navbr">
+    <div id="contain" class="row">
+    <div id="navig_slim" class="visible-sm visible-xs">
+      <button class="nav-button">Toggle Navigation</button>
+
+      <ul class="primary-nav">
+        <li><a href="#">DESIGN</a></li>
+        <li><a href="#">MANUFACTURE</a></li>
+        <li><a href="#">SELL</a></li>
+        <li><a href="#">Accaunt</a></li>
+        <li><a href="#">Mir <b style="color: #694569;">12</b></a></li>
+        <li><a href="#">Mail <b style="color: #694569;">5</b></a></li>
+        <li><a href="#">Portfolio <b style="color: #694569;">11</b></a></li>
+        <li class="parent"><a href="#">About Us</a>
+          <ul>
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#">Community Involvement</a></li>
+            <li><a href="#">Job Opportunities</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      <div id="emblema">
         <%= image_tag("Logo.jpg", :alt => "rss feed") %>
       </div>
-      <div class="navig">
-        <div class="nav1">
-          <%= link_to 'DESIGN', new_post_path, {:class => "nav_bar"} %>
-        </div>
-        <div class="nav1">
-          <%= link_to 'MANUFACTURE', new_post_path, {:class => "nav_bar"} %>
-        </div>
-        <div class="nav1">
-          <%= link_to 'SELL', new_post_path, {:class => "nav_bar"} %>
-        </div>
+      <div id="navig" class="hidden-sm hidden-xs">
+          <%= link_to 'DESIGN', new_post_path, {:class => "nav_bar", :style => "width: 28%;"} %>
+          <%= link_to 'MANUFACTURE', new_post_path, {:class => "nav_bar", :style => "width: 50%;"} %>
+          <%= link_to 'SELL', new_post_path, {:class => "nav_bar", :style => "width: 22%;"} %>
+        
         
       </div>
-      <div class="acuser">
+      <div id="acuser" class="hidden-sm hidden-xs">
         <%= image_tag("foto.jpg", :alt => "rss feed",:id => "avatar") %>
-        <div id="av">
+        <div id="spisok">
         <ul id="menu">
           <li><a href="#">Artstudios <%= image_tag("dawn.jpg", :alt => "rss feed") %></a>
           <ul>
@@ -37,26 +53,27 @@
           </li>
         </ul>
         </div>
-        <div class="emb_nav">
+        <div id="emb_nav">
+          <div id="maseg"><center>12</center></div>
           <a href="#" class="mylink"> 
             <%= image_tag("planet.jpg", :alt => "rss feed", :id => "poz_nav") %>
-          <div id="maseg"><center>12</center></div>
           </a>
         </div>
-        <div class="emb_nav">
+        <div id="emb_nav">
+          <div id="maseg"><center>5</center></div>
           <a href="#" class="mylink"> 
             <%= image_tag("konv.jpg", :alt => "rss feed", :id => "poz_nav") %>
-          <div id="maseg"><center>5</center></div>
           </a>
         </div>
-        <div class="emb_nav">
+        <div id="emb_nav">
+          <div id="maseg"><center>11</center></div>
           <a href="#" class="mylink"> 
             <%= image_tag("diplomat.jpg", :alt => "rss feed", :id => "poz_nav") %>
-          <div id="maseg"><center>11</center></div>
           </a>
         </div>
     </div>
-  </div>
+</div>
+</div>
   
 
 

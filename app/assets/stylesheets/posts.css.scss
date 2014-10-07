@@ -1,3 +1,122 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#cont_p{
+  max-width:1200px;
+  margin:16px auto;
+  font-size:10px;
+  color: #530EC8;
+  border-bottom: 3px solid #F4B39B;
+  height: 35px;
+  margin-top: 25px;  
+}
+
+b {
+  font-size:13px;
+  color: #9c9a9b;
+}
+
+
+#cont1{
+  max-width:1200px;
+  min-height:448px;
+  margin:5px auto;
+  
+  
+  background: white;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+
+#ramka{
+  border: solid 1px  #F4B39B;
+}
+
+
+
+#cont2{
+  width:55.4%;
+  height:784px;
+  float: left;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+
+#cont3{
+  width:43.3%;
+  height:784px;
+  color: red;
+  background: #8EC0F6;
+  float: right;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+#cont4{
+  width:55.4%;
+  height:176px;
+  margin:10px auto;
+  float: left;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+#cont23{
+  max-width:1200px;
+  margin:15px auto;
+  
+}
+
+
+
+.filter{
+  width: 668px;
+  height: 69px;
+  margin: 5px auto;
+  float: left;
+}
+
+#leba{
+  margin: 0.7%;
+  width: 54%;
+  float: left;
+}
+
+#cont1_right{
+  padding: 2.75% 4.6%;
+  float: right;
+  width: 44%;
+  /*line-height: 25px;
+  color: black;
+  font-size: 15px;*/
+
+  b {
+    color: black;
+  }
+  
+  p {
+    line-height: 25px;
+    color: grey;
+    font-size: 15px;
+    b {
+      color: black;
+      font-size: 11px;
+    }
+    a {
+      color: #2ae2e2;
+    }
+  }
+
+}
