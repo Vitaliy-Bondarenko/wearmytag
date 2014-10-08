@@ -2,9 +2,55 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@media (max-width: 800px) {
+  .coll-mobille-50 {
+    width: 48%;
+    float: left;
+    padding: 15px 1%;
+  }
 
+  .coll-mobille-100 {
+    width: 100%;
+    float: left;
+    padding: 15px 1%;
+  }
+}
 
-#cont_p{
+@media (min-width: 800px) {
+  .coll-mobille-20 {
+    width: 20%;
+    float: left;
+    padding: 15px 1%;
+  }
+}
+
+@media (min-width: 900px) {
+  .coll-mob-54 {
+    width: 54%;
+    float:left;
+    margin: 0.7%;
+  }
+
+  .coll-mob2-44 {
+    width: 44%;
+    float:left;
+  }
+}
+
+@media (max-width: 900px) {
+  .coll-mob-100 {
+    width: 100%;
+    float:left;
+    margin: 0.7%;
+  }
+
+  .coll-mob2-100 {
+    width: 100%;
+    float:left;
+  }
+}
+
+#cont_p {
   max-width:1200px;
   margin:16px auto;
   font-size:10px;
@@ -19,13 +65,11 @@ b {
   color: #9c9a9b;
 }
 
-
-#cont1{
+#cont1 {
   max-width:1200px;
   min-height:448px;
   margin:5px auto;
-  
-  
+  display: table;
   background: white;
   box-shadow: 0px 1px 3px black;
   -webkit-box-shadow: 0px 1px 3px black;
@@ -33,14 +77,11 @@ b {
   -moz-box-shadow: 0px 1px 3px black;
 }
 
-
-.ramka{
+.ramka {
   border: solid 1px  #F4B39B;
 }
 
-
-
-#cont2{
+#cont2 {
   width:55.4%;
   height:784px;
   float: left;
@@ -50,8 +91,7 @@ b {
   -moz-box-shadow: 0px 1px 3px black;
 }
 
-
-#cont3{
+#cont3 {
   width:43.3%;
   height:784px;
   color: red;
@@ -62,7 +102,8 @@ b {
   -o-box-shadow: 0px 1px 3px black;
   -moz-box-shadow: 0px 1px 3px black;
 }
-#cont4{
+
+#cont4 {
   width:55.4%;
   height:176px;
   margin:10px auto;
@@ -73,34 +114,28 @@ b {
   -moz-box-shadow: 0px 1px 3px black;
 }
 
-#cont23{
+#cont23 {
   max-width:1200px;
   margin:15px auto;
-  
 }
 
-
-
-.filter{
+.filter {
   width: 668px;
   height: 69px;
   margin: 5px auto;
   float: left;
 }
 
-#leba{
+#leba {
   margin: 0.7%;
   width: 54%;
   float: left;
+  min-width: 500px;
 }
 
-#cont1_right{
+#cont1_right {
   padding: 2.75% 4.6%;
   float: left;
-  width: 44%;
-  /*line-height: 25px;
-  color: black;
-  font-size: 15px;*/
 
   b {
     color: black;
@@ -110,31 +145,45 @@ b {
     line-height: 25px;
     color: grey;
     font-size: 15px;
+   
     b {
       color: black;
       font-size: 11px;
     }
+  
     a {
       color: #2ae2e2;
     }
   }
-
 }
 
-#cont1_border{
-   
+#cont1_border {
   border-top: 1px solid #D6C7C1;
-  /*top: 350px;*/
-  
-    
-}
+  padding: 1% 4% 0 0;
 
-b {
-  font-size:13px;
-  color: #9c9a9b;
-}
+  p {
+    text-transform: uppercase;
+    color: grey;
+  }
 
-#did{
-  height: 75%
+  b {
+    color: black;
+    text-transform: capitalize;
+  }
 
+  img {
+    position: relative;
+    top: -8px;
+  }
+
+  a:link {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #333333;
+    text-decoration: underline;
+    background-color: white;
+  }
 }
