@@ -1,0 +1,83 @@
+!!!
+%html
+  %head
+    %title Wearmytag
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    .navbr
+      #contain.row
+        #navig_slim.visible-sm.visible-xs
+          %button.nav-button Toggle Navigation
+          %ul.primary-nav
+            %li
+              %a{:href => "#"} DESIGN
+            %li
+              %a{:href => "#"} MANUFACTURE
+            %li
+              %a{:href => "#"} SELL
+            %li
+              %a{:href => "#"} Accaunt
+            %li
+              %a{:href => "#"}
+                Mir
+                %b{:style => "color: #694569;"} 12
+            %li
+              %a{:href => "#"}
+                Mail
+                %b{:style => "color: #694569;"} 5
+            %li
+              %a{:href => "#"}
+                Portfolio
+                %b{:style => "color: #694569;"} 11
+            %li.parent
+              %a{:href => "#"} About Us
+              %ul
+                %li
+                  %a{:href => "#"} Our History
+                %li
+                  %a{:href => "#"} Latest News
+                %li
+                  %a{:href => "#"} Community Involvement
+                %li
+                  %a{:href => "#"} Job Opportunities
+        #emblema
+          = image_tag("Logo.jpg", :alt => "rss feed")
+        #navig.hidden-sm.hidden-xs
+          %center
+            = link_to 'DESIGN', new_post_path, {:class => "nav_bar", :style => "width: 28%;"}
+          %center
+            = link_to 'MANUFACTURE', new_post_path, {:class => "nav_bar", :style => "width: 50%;"}
+          %center
+            = link_to 'SELL', new_post_path, {:class => "nav_bar", :style => "width: 22%;"}
+        #acuser.hidden-sm.hidden-xs
+          = image_tag("foto.jpg", :alt => "rss feed",:id => "avatar")
+          #spisok
+            %ul#menu
+              %li
+                %a{:href => "#", :style => "color: grey;"}
+                  Artstudios #{image_tag("dawn.jpg", :alt => "rss feed")}
+                %ul
+                  %li
+                    %a{:href => "#"} link 1
+                  %li
+                    %a{:href => "#"} link 2
+                  %li
+                    %a{:href => "#"} link 3
+          #emb_nav
+            #maseg
+              %center 12
+            %a.mylink{:href => "#"}
+              = image_tag("planet.jpg", :alt => "rss feed", :id => "poz_nav")
+          #emb_nav
+            #maseg
+              %center 5
+            %a.mylink{:href => "#"}
+              = image_tag("konv.jpg", :alt => "rss feed", :id => "poz_nav")
+          #emb_nav
+            #maseg
+              %center 11
+            %a.mylink{:href => "#"}
+              = image_tag("diplomat.jpg", :alt => "rss feed", :id => "poz_nav")
+    = yield

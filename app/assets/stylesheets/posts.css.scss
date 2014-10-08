@@ -1,3 +1,189 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (max-width: 800px) {
+  .coll-mobille-50 {
+    width: 48%;
+    float: left;
+    padding: 15px 1%;
+  }
+
+  .coll-mobille-100 {
+    width: 100%;
+    float: left;
+    padding: 15px 1%;
+  }
+}
+
+@media (min-width: 800px) {
+  .coll-mobille-20 {
+    width: 20%;
+    float: left;
+    padding: 15px 1%;
+  }
+}
+
+@media (min-width: 900px) {
+  .coll-mob-54 {
+    width: 54%;
+    float:left;
+    margin: 0.7%;
+  }
+
+  .coll-mob2-44 {
+    width: 44%;
+    float:left;
+  }
+}
+
+@media (max-width: 900px) {
+  .coll-mob-100 {
+    width: 100%;
+    float:left;
+    margin: 0.7%;
+  }
+
+  .coll-mob2-100 {
+    width: 100%;
+    float:left;
+  }
+}
+
+#cont_p {
+  max-width:1200px;
+  margin:16px auto;
+  font-size:10px;
+  color: #530EC8;
+  border-bottom: 1px solid #D6C7C1;
+  height: 35px;
+  margin-top: 25px;  
+}
+
+b {
+  font-size:13px;
+  color: #9c9a9b;
+}
+
+#cont1 {
+  max-width:1200px;
+  min-height:448px;
+  margin:5px auto;
+  display: table;
+  background: white;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+.ramka {
+  border: solid 1px  #F4B39B;
+}
+
+#cont2 {
+  width:55.4%;
+  height:784px;
+  float: left;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+#cont3 {
+  width:43.3%;
+  height:784px;
+  color: red;
+  background: #8EC0F6;
+  float: right;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+#cont4 {
+  width:55.4%;
+  height:176px;
+  margin:10px auto;
+  float: left;
+  box-shadow: 0px 1px 3px black;
+  -webkit-box-shadow: 0px 1px 3px black;
+  -o-box-shadow: 0px 1px 3px black;
+  -moz-box-shadow: 0px 1px 3px black;
+}
+
+#cont23 {
+  max-width:1200px;
+  margin:15px auto;
+}
+
+.filter {
+  width: 668px;
+  height: 69px;
+  margin: 5px auto;
+  float: left;
+}
+
+#leba {
+  margin: 0.7%;
+  width: 54%;
+  float: left;
+  min-width: 500px;
+}
+
+#cont1_right {
+  padding: 2.75% 4.6%;
+  float: left;
+
+  b {
+    color: black;
+  }
+  
+  p {
+    line-height: 25px;
+    color: grey;
+    font-size: 15px;
+   
+    b {
+      color: black;
+      font-size: 11px;
+    }
+  
+    a {
+      color: #2ae2e2;
+    }
+  }
+}
+
+#cont1_border {
+  border-top: 1px solid #D6C7C1;
+  padding: 1% 4% 0 0;
+
+  p {
+    text-transform: uppercase;
+    color: grey;
+  }
+
+  b {
+    color: black;
+    text-transform: capitalize;
+  }
+
+  img {
+    position: relative;
+    top: -8px;
+  }
+
+  a:link {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #333333;
+    text-decoration: underline;
+    background-color: white;
+  }
+}
