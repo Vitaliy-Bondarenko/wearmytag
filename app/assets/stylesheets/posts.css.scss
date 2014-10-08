@@ -9,7 +9,7 @@
   margin:16px auto;
   font-size:10px;
   color: #530EC8;
-  border-bottom: 3px solid #F4B39B;
+  border-bottom: 1px solid #D6C7C1;
   height: 35px;
   margin-top: 25px;  
 }
@@ -34,7 +34,7 @@ b {
 }
 
 
-#ramka{
+.ramka{
   border: solid 1px  #F4B39B;
 }
 
@@ -96,7 +96,7 @@ b {
 
 #cont1_right{
   padding: 2.75% 4.6%;
-  float: right;
+  float: left;
   width: 44%;
   /*line-height: 25px;
   color: black;
@@ -118,5 +118,23 @@ b {
       color: #2ae2e2;
     }
   }
+
+}
+
+#cont1_border{
+   
+  border-top: 1px solid #D6C7C1;
+  /*top: 350px;*/
+  
+    
+}
+
+b {
+  font-size:13px;
+  color: #9c9a9b;
+}
+
+#did{
+  height: 75%
 
 }
